@@ -1,6 +1,6 @@
 const config = {
   plugins: {
-    tailwindcss: {
+    '@tailwindcss/postcss': { // Corrected plugin key
       config: './src/app/styles/tailwind.config.ts',
     },
     autoprefixer: {},
