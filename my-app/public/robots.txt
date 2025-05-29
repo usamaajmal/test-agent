@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/ # If an admin section is ever created
+Sitemap: https://yourdomain.com/sitemap.xml # Add your actual domain and sitemap URL here
